@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Saira&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio Website FrontEnd</title>
+</head>
+<body>
+    <div id="sideNavbar" class="sidenav" style="background: linear-gradient(45deg, #bcb9b9, #ffffff);">
+      <a href="javascript:void(0)" class="close" onclick="closeNavbar()">&times;</a>
+      <img class="myPictureDisappear" src="profPic.jpg" alt="My picture">
+      <a href="#about" onclick="closeNavbar()">About Me</a>
+      <a href="#achievements" onclick="closeNavbar()">Achievements</a>
+       <a href="#work" onclick="closeNavbar()">Work Experience</a> 
+      <a href="#projects" onclick="closeNavbar()">Projects</a>
+      <a href="#contact" onclick="closeNavbar()">Contact Me</a>
+    </div>
+    
+      
+    <div class="main" >
+        <div class="siteHeader" style="background: linear-gradient(45deg, #bcb9b9, #ffffff);">
+            <span class="hamburger" onclick="openNavbar()">&#9776;</span>
+            <div class="nameDisappear">
+                <h1>My Portfolio</h1>
+            </div>
+        </div>
+        <div class="smallerSiteHeader" style="background: linear-gradient(45deg, #bcb9b9, #ffffff);">
+            <div class="nameAppear">
+                <h1>Hi Everyone!</h1>
+            </div>
+        </div>
+        
+        <!-- About Me SECTION -->
+        <section id="about" style=" background: linear-gradient(45deg, #ffa16b, #ffffff);">
+            <img class="myPictureAppear" src="smallPic.jpg" alt="My picture">
+            <div class="headingText">
+                <h1 style="background: linear-gradient(45deg, #bcb9b9, #ffffff); color: black"><span style="background: linear-gradient(45deg, #bcb9b9, #ffffff);">ABOUT ME</span></h1>
+            </div>
+           
+            <div class="aboutContent">
+               <p> This is Tanmayee Choudhury, a Btech undergraduate in Computer Science and Engineering from Vellore Institute of Technology,Vellore. 
+                I always aim for success and victory in everything I do.
+                I feel that having a positive attitude towards life lessens most of our workload.
+                I am more of a go-getter than a day-dreamer.
+                I totally believe in hardwork and passion.</p>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="open-modal" data-open="modal1" style="background: linear-gradient(45deg, #bcb9b9, #ffffff); color: #575656;">Skills</button>
+            </div>
+                <div class="modal" id="modal1">
+                <div class="modal-dialog">
+                    <header class="modal-header">
+                    My skills in a Nutshell:
+                    <button class="close-modal" aria-label="close modal" data-close>✕</button>
+                    </header>
+                    <section class="modal-content">
+                        <ul>
+                            <li>HTML5,CSS3,JS,Bootstrap</li>
+                            <li>Java,Python,C</li>
+                            <li>MySQL,Php</li>
+                            <li>EJS,Node JS</li>
+                        </ul>
+                    </section>
+                    <footer class="modal-footer">© Copyright Tanmayee,the Epistemophilic, 2020</footer>
+                </div>
+                </div>
+            
+        </section>
+        <br>
+
+        <!-- Skills SECTION <section id="skills">
+            <div class="headingTextOtherSections">
+                <h1>SKILLS</h1>
+            </div>
+            <div class="skillsContent">
+                <h1>List your skills here</h1>
+                <h1>Add your tech stack, images of the languages used by you.</h1>  
+
+                <div class="logos">
+                    <img class="techLogo" src="./logos/html5.svg" alt="HTML logo">
+                    <img class="techLogo" src="./logos/css-3.svg" alt="CSS logo">
+                    <img class="techLogo" src="./logos/javascript.svg" alt="Javascript logo">
+                </div>
+                 Add more such divs if you want to add more logos 
+            </div>
+        </section>
+-->
+        
+        <!-- Achievements SECTION -->
+        
+        <section id="achievements" style=" background: linear-gradient(45deg, #ffa16b, #ffffff);">
+            <div class="headingText">
+                <h1 style="background: linear-gradient(45deg, #bcb9b9, #ffffff); color: black"><span style="background: linear-gradient(45deg, #bcb9b9, #ffffff);">ACHIEVEMENTS</span></h1>
+            </div>
+            <div class="achievementsContent">
+                <ul>
+                    
+                    <li>Editorial Head of Mozilla Firefox Club-VIT</li>
+                    <li>Merit Scholarship Award Recipient for outstanding performance in
+academics for the year 2019-2020</li>
+                    <li>Top Performer under Web Dev domain in Mentored Internship Program (MIP'20)</li>
+                    <li>Technical Core Member of IEEE-Women In Engineering Chapter</li>
+                    <li>Management Board Member of The Wizzkids</li>
+                    <li>Coordinator at LEO Club, VIT</li>
+                    
+                </ul>
+            </div>
+            </section>
+                <br>
+                <section id="work" style=" background: linear-gradient(45deg, #ffa16b, #ffffff);">
+                    <br>
+                <div class="headingText">
+                    <h1 style="background: linear-gradient(45deg, #bcb9b9, #ffffff); color: black"><span style="background:linear-gradient(45deg, #bcb9b9, #ffffff);">Work Experience</span></h1>
+                </div>
+                <div class="achievementsContent">
+                <div class="achievement">
+                <h1>CSS and JS for Web Developers</h1> 
+                    <p>YouAccel</p>
+                    <img class="certificate" src="css&js.PNG" alt="image of certificate" height=300px width=300px>
+                </div>
+                <!-- Add more such divs if you want to add more achievements -->
+                <div class="achievement">
+                    <h1>Mentored Internship Program</h1>
+                    <p>Inception Wave</p>
+                    
+                    <img class="certificate" src="iwCert.PNG" alt="image of certificate" height=300px width=300px>
+                   
+                </div>
+                    <div class="achievement">
+                    <h1>Code Yourself! An Introduction to Programming</h1>
+                    <p>Coursera</p>
+                    
+                    <img class="certificate" src="coursera.PNG" alt="image of certificate" height=300px width=300px>
+                   
+                </div>
+            </div>
+        </section>
+               <br>                     
+            
+        <!--Projects SECTION-->
+        <section id="projects" style=" min-height: 70vh;
+     padding: 5vh 10vw;
+    background: linear-gradient(45deg, #ffa16b, #ffffff);">
+            <div class="headingTextOtherSections" style="font-size: 1.0em;
+    width: 100%; 
+     border-bottom: 1px solid lightgrey; 
+     line-height: 0.1em;
+     margin: 10px 0 20px;">
+                <h1 style="background: linear-gradient(45deg, #bcb9b9, #ffffff); color: black;"><span style="background:linear-gradient(45deg, #bcb9b9, #ffffff);">PROJECTS</span></h1>
+            </div>
+            <div class="projectsContent" style=" text-align: center;
+    padding-top: 3vh;">
+                <div class="project" style="width: 50%;
+    text-align:center;">
+                    <h2 style=" font-family: 'Grandstander', cursive;
+    font-weight: normal; ">Weather Web App</h2> 
+                    <p>Using HTML, CSS and JS</p>
+                   
+                    <img class="project" src="weather%20api.jfif" alt="image of project " height=200px width=300px>
+                    <h4><a class="projectLink" target="_blank" href="https://tanmayee-07.github.io/WeatherWebApp/" style=" text-decoration: none;
+     background: linear-gradient(45deg, grey, #ffffff);
+     color: #575656;
+    padding: 10px 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 3px 1px grey;
+    transition-duration: 1s;">Live Demo</a></h4>
+                </div>
+                <hr>
+                 <div class="project" style="width: 50%;
+    text-align:center;">
+                    <h2 style=" font-family: 'Grandstander', cursive;
+    font-weight: normal;">Employee Management System(EMS) Web App</h2> 
+                    <p>Using HTML, CSS, JS and Php</p>
+                   
+                    <img class="project" src="ems.jpg" alt="image of project " height=150px width=300px>
+                    <h4><a class="projectLink" target="_blank" href="https://zinfo-ems.000webhostapp.com/ems" style=" text-decoration: none;
+    background: linear-gradient(45deg, grey, #ffffff);
+     color: #575656;
+    padding: 10px 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 3px 1px grey;
+    transition-duration: 1s;">Live Demo</a></h4>
+                </div>
+                <hr>
+            </div>
+        </section>
+
+        <!-- Resume SECTION --> 
+        <br>
+        <section id="resume" style=" min-height: 70vh;
+    padding: 5vh 10vw; background: linear-gradient(45deg, #ffa16b, #ffffff);">
+            <div class="headingText">
+                <h1 style="background: linear-gradient(45deg, #bcb9b9, #ffffff); color: black;"><span style="background:linear-gradient(45deg, #bcb9b9, #ffffff);">MY RÉSUME</span></h1>
+            </div>
+            <br>
+            <div class="resumeContent" style=" text-align: center;
+    padding-top: 3vh;">
+                <img class="certificate" src="resume.PNG" alt="image of certificate" height=350px width=250px>
+                <h4><a class="resumeLink" target="_blank" href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:ae4794d0-757a-4572-983c-30fed5e35bc6" style=" text-decoration: none;
+    background: linear-gradient(45deg, #bcb9b9, #ffffff);
+    padding: 10px 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 3px 1px grey;
+    transition-duration: 1s;font-family: 'Grandstander', cursive;
+    font-weight: 300; color: #575656; ">Resume</a></h4>
+               
+            </div>
+        </section>
+       
+        <br>
+        <!-- Contact Me SECTION -->
+        <section id="contact" style=" background: linear-gradient(45deg, #ffa16b, #ffffff);">
+            <div class="headingText">
+                <h1 style="background: linear-gradient(45deg, #bcb9b9, #ffffff); color: black;"><span style="background: linear-gradient(45deg, #bcb9b9, #ffffff);">GET IN TOUCH</span></h1>
+            </div>
+            <br>
+           
+                <h1 style="text-align: center">Use this contact form to get in touch with me.</h1>
+                <div class="contactForm" style=" width: 40%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 1px grey;
+    background-color: white;">
+                    <form>
+                        <div class="input" style=" margin-bottom: 8px;">
+                            <input class="form-field" style=" font-size: 18px;
+    font-family: 'Grandstander', cursive;
+    border-radius: 10px;
+    padding: 10px 5px;
+    border: none;
+    box-shadow: 0 0 2px 1px black;
+    width: 100%;
+    transition-duration: 1s;" type="text" name="name" placeholder="Enter Name" required>
+                        </div>
+                        <div class="input" style=" margin-bottom: 8px;">
+                            <input class="form-field" style=" font-size: 18px;
+    font-family: 'Grandstander', cursive;
+    border-radius: 10px;
+    padding: 10px 5px;
+    border: none;
+    box-shadow: 0 0 2px 1px black;
+    width: 100%;
+    transition-duration: 1s;" type="email" name="email" placeholder="Enter Email ID" required>
+                        </div>
+                        <div class="input" style=" margin-bottom: 8px;">
+                            <textarea class="form-field" style=" font-size: 18px;
+    font-family: 'Grandstander', cursive;
+    border-radius: 10px;
+    padding: 10px 5px;
+    border: none;
+    box-shadow: 0 0 2px 1px black;
+    width: 100%;
+    transition-duration: 1s;" type="text" name="message" rows="3" placeholder="Enter Message" required></textarea>
+                        </div>
+                        <button class="submit" style=" background: linear-gradient(45deg, #139808, #e0dbdb);
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    width: 30%;
+    font-size: 0.9em;
+    box-shadow: 0 0 3px 1px black;
+    transition-duration: 1s;"><a href="mailto:choudhurytanmayee7@gmail.com" style="text-decoration: none; color:white;">SEND</a></button>
+                    </form>
+                </div>
+                <div class="contactContent">
+                    <h1>You can find me on:</h1>
+                    <div class="icons">
+                        <ul class="iconsList"> 
+                            <li class="Facebook"><a href="https://www.facebook.com/tanmayee.choudhury/"><i class="fa fa-facebook"></i></a></li>
+                            <li class="Instagram"><a href="https://www.instagram.com/tanma_yeeeee/"><i class="fa fa-instagram"></i></a></li>
+                            <li class="Linkedin"><a href="https://www.linkedin.com/in/tanmayee-choudhury-56154b1b3/"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="Github" style="margin-left: 15px;"><a href="https://github.com/tanmayee-07"><i class="fa fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                    <h1>Or, you can <a href="mailto:choudhurytanmayee7@gmail.com" style="text-decoration: none; color: navy;">send me an email</a>.</h1>
+                </div>
+                
+        </section>
+    </div>
+    <div class="splitview">
+        <div class="panel bottom">
+            <div class="content">
+                <footer style=" background: linear-gradient(45deg, grey, #ffffff);
+     color: #575656;">
+                    © Copyright Tanmayee,the Epistemophilic, 2020
+                </footer>
+            </div>
+        </div>   
+        <div class="panel top">
+            <div class="content">
+             
+            </div>
+        </div>
+        <div class="handle"></div>    
+    </div>
+   
+    <script src="./sidenav.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   
+</body>
+</html>
