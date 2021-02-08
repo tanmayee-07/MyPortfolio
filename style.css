@@ -206,7 +206,7 @@ body{
     max-width: 800px;
     max-height: 80vh;
     border-radius: 5px;
-    background: linear-gradient(45deg, #f5ee42, #ffffff);
+    background: linear-gradient(45deg, #a7a6a2, #ffffff);
     overflow: auto;
     cursor: default;
   }
@@ -216,7 +216,7 @@ body{
    
   .modal-header,
   .modal-footer {
-    background: rgba(9, 173, 245, 0.58);
+    background: rgba(223, 30, 248, 0.58);
   }
    
   .modal-header {
