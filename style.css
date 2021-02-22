@@ -73,7 +73,7 @@ body{
 
 /* Open sidenav with this menu button */
 .hamburger{
-    position: absolute;
+    position: fixed;
     top: 30px;
     left: 235px;
     cursor:pointer;
